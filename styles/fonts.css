@@ -10,14 +10,12 @@
 }
 
 @font-face {
-  font-family: 'Gothamrounded';
+  font-family: 'GothamroundedMedium';
   src: url('../fonts/medium/gothamrounded-medium-webfont.eot');
   src: url('../fonts/medium/gothamrounded-medium-webfont.eot?#iefix') format('embedded-opentype'),
        url('../fonts/medium/gothamrounded-medium-webfont.woff') format('woff'),
        url('../fonts/medium/gothamrounded-medium-webfont.ttf') format('truetype'),
        url('../fonts/medium/gothamrounded-medium-webfont.svg') format('svg');
-  font-weight: 500;
-  font-style: normal;
 }
 
 @font-face {
@@ -49,6 +47,4 @@
        url('../fonts/bold/gothamrounded-bold-webfont.woff') format('woff'),
        url('../fonts/bold/gothamrounded-bold-webfont.ttf') format('truetype'),
        url('../fonts/bold/gothamrounded-bold-webfont.svg') format('svg');
-  font-weight: normal;
-  font-style: normal;
 }

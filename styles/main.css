@@ -110,3 +110,96 @@ body {
 .promo__nav > ul > li:last-child > a {
   margin-left: 12px;
 }
+
+.promo__info {
+  padding-top: 20px;
+  margin: -5px auto 0 auto;
+  text-align: center;
+  width: 504px;
+}
+
+.promo__info h1 {
+  color: #fff;
+  font-size: 2.25rem;
+  font-family: 'GothamroundedBold';
+  text-transform: uppercase;
+  word-spacing: 3px;
+  letter-spacing: 5px;
+  margin-bottom: 13px;
+}
+
+.promo__info p {
+  font-size: 1rem;
+  font-family: 'GothamroundedMedium';
+  font-weight: 100;
+  color: #fff;
+  margin-bottom: 27px;
+  word-spacing: 2.5px;
+  letter-spacing: 2.2px;
+}
+
+.button {
+  background-color: #16a086;
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  padding: 20px 30px 18px 30px;
+  border-radius: 3px;
+  font-size: .75rem;
+  font-family: 'GothamroundedBold';
+  text-transform: uppercase;
+  word-spacing: 2px;
+  letter-spacing: 1.8px;
+}
+
+.button:hover {
+  background-color: #109076
+}
+
+.promo__social-links > ul {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 25px;
+  border-bottom: #3a333b solid 1px;
+}
+
+.promo__social-links > ul > li {
+  margin: 0 8px;
+  position: relative;
+  width: 23px;
+  height: 20px;
+}
+
+.promo__social-links > ul > li > a {
+  display: block;
+  text-indent: 999999px;
+  overflow: hidden;
+  text-decoration: none;
+  width: inherit;
+  height: inherit;
+  transition: transform ease .5s;
+  -webkit-background-size: contain;
+  background-size: contain;
+}
+
+.promo__social-links > ul > li:nth-child(1) > a {
+  background-image: url('../img/tw.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.promo__social-links > ul > li:nth-child(2) > a {
+  background-image: url('../img/fl.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.promo__social-links > ul > li:nth-child(3) > a {
+  background-image: url('../img/dr.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.promo__social-links > ul > li > a:hover {
+  transform: rotateZ(360deg);
+}
