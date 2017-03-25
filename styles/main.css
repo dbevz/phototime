@@ -70,11 +70,42 @@ body {
   margin: auto;
 }
 
-.promo {
-  height: 745px;
+.button {
+  background-color: #16a086;
+  color: #fff;
+  display: inline-block;
+  width: auto;
+  text-decoration: none;
+  padding: 20px 30px 18px 30px;
+  border-radius: 3px;
+  font-size: .75rem;
+  font-family: 'GothamroundedBold';
+  text-transform: uppercase;
+  word-spacing: 2px;
+  letter-spacing: 1.8px;
+}
+
+.button:hover {
+  background-color: #109076
+}
+
+.button_wide {
+  padding: 21px 43px 17px 43px;
+}
+
+.bold-text {
+  font-family: 'GothamroundedBold';
+}
+
+.flex-col {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: inherit;
+}
+
+.promo {
+  height: 745px;
 }
 
 .promo__nav {
@@ -138,24 +169,6 @@ body {
   letter-spacing: 2.2px;
 }
 
-.button {
-  background-color: #16a086;
-  color: #fff;
-  display: inline-block;
-  text-decoration: none;
-  padding: 20px 30px 18px 30px;
-  border-radius: 3px;
-  font-size: .75rem;
-  font-family: 'GothamroundedBold';
-  text-transform: uppercase;
-  word-spacing: 2px;
-  letter-spacing: 1.8px;
-}
-
-.button:hover {
-  background-color: #109076
-}
-
 .promo__social-links > ul {
   display: flex;
   justify-content: center;
@@ -202,4 +215,115 @@ body {
 
 .promo__social-links > ul > li > a:hover {
   transform: rotateZ(360deg);
+}
+
+.flex-row {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 512px;
+  padding-left: 64px;
+  margin: 0 64px;
+}
+.card > .button {
+  align-self: flex-start;
+}
+
+.card > h2 {
+  margin-left: -3px;
+  margin-bottom: 40px;
+  line-height: 1.2;
+  font-size: 1.125rem;
+  color: #16a085;
+  font-family: 'GothamroundedBold';
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  word-spacing: 2.75px
+}
+
+.card > p {
+  font-family: 'GothamroundedBook';
+  font-size: .75rem;
+  line-height: 2.083;
+  margin-bottom: 40px;
+  letter-spacing: 0.123em;
+  word-spacing: 0.223em;
+  color: #373737;
+}
+
+.photoapp {
+  background-color: #f5f6f7;
+  height: 492px;
+}
+
+.photoapp > .container {
+  padding-top: 108px;
+  padding-bottom: 90px;
+  background-image: url('../img/photoapp-bg.png');
+  background-position: 515px 91px;
+  background-repeat: no-repeat;
+}
+
+.design {
+  
+}
+
+.design > .container {
+  padding-top: 144px;
+}
+
+.design .card > img {
+  height: 413px;
+  width: 315px;
+  margin-left: -6px;
+}
+
+.design .card > h2 {
+  line-height: 1;
+  margin-bottom: 35px;
+}
+
+.design .card > p {
+  line-height: 1.85em;
+}
+.design .button {
+  margin-bottom: 45px;
+  border-radius: 0px;
+}
+
+.slide-nav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 43px;
+  font-family: 'GothamroundedBold';
+  font-size: 0.75rem;
+  letter-spacing: 0.123em;
+}
+
+.arrows {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7px;  
+}
+.arrows a {
+  text-decoration: none;
+  display: block;
+  width: 11px;
+  height: 16px;
+  background-repeat: no-repeat;
+}
+
+.arrows a:first-child {
+  margin-right: 20px;
+  background: url('../img/arr-l.png');
+}
+
+.arrows a:last-child {
+  background: url('../img/arr-r.png');
 }
