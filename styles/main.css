@@ -86,7 +86,7 @@ body {
 }
 
 .button:hover {
-  background-color: #109076
+  background-color: #109076;
 }
 
 .button_wide {
@@ -326,4 +326,233 @@ body {
 
 .arrows a:last-child {
   background: url('../img/arr-r.png');
+}
+
+.slider {
+  padding: 90px 0 120px 0;
+  background-color: #f5f6f7;
+}
+
+.slider .container {
+  padding: 0 64px;
+}
+
+.slider__arrow {
+  justify-content: flex-end;
+  margin: 0 64px 10px 64px;
+}
+
+.slider__arrow .slide-nav {
+  width: 38px;
+}
+
+.slider__arrow .slide-nav .arrows a:first-child {
+  margin-right: 16px;
+}
+
+.slider__elements {
+  margin: 0 64px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider__elem {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.slider__elem_small {
+  width: 235px;
+}
+
+.slider__elem_wide {
+  width: 371px;
+}
+
+.subscribe {
+  background-image: url(../img/subscribe-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  -webkit-background-size: 100% 790px;
+  background-size: 100% 790px;
+  
+  @media all and (min-width: 1490px) {
+    -webkit-background-size: 1490px 790px;
+    background-size: 1490px 790px;
+  }
+}
+
+.subscribe .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 790px;
+}
+
+.subscribe h2 {
+  font-size: 1.5rem;
+  font-family: 'GothamroundedBold';
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  letter-spacing: 3px;
+  word-spacing: 6px;
+  line-height: 1.5;
+}
+
+.subscribe form {
+  display: flex;
+  height: 60px;
+}
+
+.subscribe input {
+  padding: 25px 22px;
+  width: 280px;
+  border: none;
+  border-radius: 3px 0 0 3px;
+  outline: none;
+}
+
+.subscribe input[placeholder] {
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: #373737;
+  font-family: 'GothamroundedMedium';
+}
+
+.subscribe button {
+  width: 63px;
+  height: inherit;
+  background-color: #16a085;
+  outline: none;
+  border: none;
+  border-radius: 0 3px 3px 0;
+  background-image: url('../img/b-check.png');
+  background-repeat: no-repeat;
+  -ms-background-position: center center;
+  background-position: center center;
+}
+
+.subscribe button:hover {
+  background-color: #109076;
+  cursor: pointer;
+}
+
+.download {
+  text-align: center;
+  padding: 90px 0 115px 0;
+  background-color: #f5f6f7;
+}
+
+
+.download h2 {
+  font-size: 1.25rem;
+  font-family: 'GothamroundedBold';
+  color: #373737;
+  text-transform: uppercase;
+  width: 896px;
+  margin: 0 auto 15px auto;
+}
+
+.download p {
+  width: 896px;
+  margin: 0 auto 45px auto;
+  font-size: .75rem;
+  font-family: 'GothamroundedMedium';
+  color: #373737;
+  text-transform: uppercase;
+  line-height: 1.5;
+
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+
+.download__button {
+  margin: 0 14px;
+  background-color: #1abc9c;
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  float: left;
+  padding: 25px 0 25px 25px;
+  min-width: 296px;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: 'GothamroundedBold';
+  border-radius: 3px;
+}
+
+.button__logo {
+  width: 56px;
+  height: 56px;
+  background-color: #16a085;
+  border-radius: 0 3px 3px 0;
+}
+
+.download__button_apple .button__logo {
+  background-image: url('../img/i-apple.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.download__button_play-store .button__logo {
+  background-image: url('../img/i-android.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.download__button:hover {
+  background-color: #16a085;
+}
+
+.footer {
+  padding-top: 45px;
+  padding-bottom: 35px;
+  background-image: url('../img/f-logo.png');
+  background-position-y: 38px;
+  background-position-x: 1098px;
+  background-repeat: no-repeat;
+}
+.footer .container {
+  padding: 0 128px;
+}
+
+.footer__links {
+  display: flex;
+  margin-bottom: 23px;
+}
+
+.footer__links li {
+  border-right: solid 2px #16a085;
+  padding: 0 7px;
+}
+
+.footer__links li:last-child {
+  border: none;
+}
+
+.footer__links a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #373737;
+  font-size: .875rem;
+  font-family: 'GothamroundedBold';
+}
+
+.footer__links a:hover {
+  color: #16a085;
+}
+
+.footer__copyright {
+  font-size: .875rem;
+  font-family: 'GothamroundedBold';
 }
