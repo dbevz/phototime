@@ -1,44 +1,29 @@
 @font-face {
   font-family: 'GothamroundedBook';
-  src: url('../fonts/book/gothamrounded-book-webfont.eot');
-  src: url('../fonts/book/gothamrounded-book-webfont.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/book/gothamrounded-book-webfont.woff') format('woff'),
-       url('../fonts/book/gothamrounded-book-webfont.ttf') format('truetype'),
-       url('../fonts/book/gothamrounded-book-webfont.svg') format('svg');
+  src: url('../fonts/GothamRoundedBook_21018.ttf');
+  src: url('../fonts/GothamRounded-Book.otf');
 }
 
 @font-face {
   font-family: 'GothamroundedMedium';
-  src: url('../fonts/medium/gothamrounded-medium-webfont.eot');
-  src: url('../fonts/medium/gothamrounded-medium-webfont.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/medium/gothamrounded-medium-webfont.woff') format('woff'),
-       url('../fonts/medium/gothamrounded-medium-webfont.ttf') format('truetype'),
-       url('../fonts/medium/gothamrounded-medium-webfont.svg') format('svg');
+  src: url('../fonts/GothamRoundedMedium_21022.ttf');
+  src: url('../fonts/GothamRounded-Medium.otf');
 }
 
 @font-face {
-  font-family: 'Gothamrounded';
-  src: url('../fonts/light/gothamrounded-light-webfont.eot');
-  src: url('../fonts/light/gothamrounded-light-webfont.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/light/gothamrounded-light-webfont.woff') format('woff'),
-       url('../fonts/light/gothamrounded-light-webfont.ttf') format('truetype'),
-       url('../fonts/light/gothamrounded-light-webfont.svg') format('svg');
+  font-family: 'GothamroundedLight';
+  src: url('../fonts/GothamRoundedLight_21020.ttf');
+  src: url('../fonts/GothamRounded-Light.otf');
 }
 
 @font-face {
-  font-family: 'Gothamrounded';
-  src: url('../fonts/mediumitalic/gothamrounded-mediumitalic-webfont.eot');
-  src: url('../fonts/mediumitalic/gothamrounded-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/mediumitalic/gothamrounded-mediumitalic-webfont.woff') format('woff'),
-       url('../fonts/mediumitalic/gothamrounded-mediumitalic-webfont.ttf') format('truetype'),
-       url('../fonts/mediumitalic/gothamrounded-mediumitalic-webfont.svg') format('svg');
+  font-family: 'GothamroundedMediumItalic';
+  src: url('../fonts/GothamRounded-MediumItalic.otf');
+
 }
 
 @font-face {
   font-family: 'GothamroundedBold';
-  src: url('../fonts/bold/gothamrounded-bold-webfont.eot');
-  src: url('../fonts/bold/gothamrounded-bold-webfont.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/bold/gothamrounded-bold-webfont.woff') format('woff'),
-       url('../fonts/bold/gothamrounded-bold-webfont.ttf') format('truetype'),
-       url('../fonts/bold/gothamrounded-bold-webfont.svg') format('svg');
+  src: url('../fonts/GothamRoundedBold_21016.ttf');
+  src: url('../fonts/GothamRounded-Bold.otf');
 }
